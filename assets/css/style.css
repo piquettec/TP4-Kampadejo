@@ -45,13 +45,13 @@
 /* Règles générales */
 
 * {
-    outline-color: #dba70d;
+    outline-color: var(--couleur-utilitaire);
 }
 
 .sauter {
     outline: none;
     background-color: #222222;
-    border-bottom: 3px solid #dba70d;
+    border-bottom: 3px solid var(--couleur-utilitaire);
     color: #ffffff;
     display: block;
     padding: 0.25em 0;
@@ -74,7 +74,7 @@ a {
 }
 
 .btn {
-    border: 3px solid rgba(255, 255, 255, 0.25);
+    border: 3px solid var(--couleur-border);
     border-radius: 5px;
     display: inline-block;
     font-weight: bold;
@@ -85,14 +85,14 @@ a {
 }
 
 .btn:hover {
-    background-color: #dba70d;
-    border-color: #dba70d;
+    background-color: var(--couleur-utilitaire);
+    border-color: var(--couleur-utilitaire);
     color: #000;
 }
 
 .btn:focus {
     outline: 0;
-    border-color: #dba70d;
+    border-color: var(--couleur-utilitaire);
 }
 
 .icone {
@@ -128,7 +128,7 @@ figure img {
 }
 
 figcaption {
-    border-bottom: 5px solid #dba70d;
+    border-bottom: 5px solid var(--couleur-utilitaire);
     font-size: 1.25rem;
     margin-top: 10px;
     padding-bottom: 10px;
@@ -214,7 +214,7 @@ figcaption {
 }
 
 .entreprise h2:after {
-    background-color: #dba70d;
+    background-color: var(--couleur-utilitaire);
     content: "";
     display: inline-block;
     width: 100px;
@@ -257,7 +257,7 @@ figcaption {
 }
 
 .experiences article h3:after {
-    background-color: #dba70d;
+    background-color: var(--couleur-utilitaire);
     content: "";
     display: inline-block;
     width: 30%;
@@ -274,11 +274,11 @@ figcaption {
 }
 
 .service {
-    border-top: 5px solid #dba70d;
+    border-top: 5px solid var(--couleur-utilitaire);
 }
 
 .service:last-of-type {
-    border-bottom: 5px solid #dba70d;
+    border-bottom: 5px solid var(--couleur-utilitaire);
 }
 
 .service h3 {
@@ -338,7 +338,7 @@ footer .h2 {
 }
 
 .informations a {
-    border-bottom: 2px solid #dba70d;
+    border-bottom: 2px solid var(--couleur-utilitaire);
     color: #000000;
     font-weight: bold;
     text-decoration: none;
