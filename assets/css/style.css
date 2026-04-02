@@ -157,13 +157,20 @@ figcaption {
 }
 
 /* Menu principal */
-.logo {}
-
-@media (min-width: 48rem) {
-    .logo {}
+.logo {
+    float: left;
+    width: 150px;
 }
 
+@media (min-width: 48rem) {
+    .logo {
+        width: 180px;
+    }
+}
 
+.nav {
+    text-align: right;
+}
 
 
 /* Accroche */
