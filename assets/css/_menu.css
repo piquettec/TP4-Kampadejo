@@ -79,7 +79,6 @@
 
 /* Liens du menu */
 .nav__link {
-    background-color: rgba(145, 0, 145, 0.2);
     display: block;
     padding: 5px 10px;
     width: 100%;
@@ -93,18 +92,18 @@
 
 .nav__link:hover {
     color: #fff;
-    background-color: darkmagenta;
+    background-color: var(--couleur-utilitaire);
 }
 
 .nav__link:active {
     color: #fff;
-    background-color: magenta;
+    background-color: var(--couleur-utilitaire);
 }
 
 
 .nav__link:focus {
     outline-offset: -5px;
-    outline: darkmagenta auto 5px;
+    outline: var(--couleur-utilitaire) auto 5px;
 }
 
 /** Une classe nav__link--active
