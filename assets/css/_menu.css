@@ -112,13 +112,13 @@
     pour l'item de menu actif
     **/
 .nav__link--active {
-    border-left: 5px solid var(--couleur-utilitaire);
+    border-left: var(--border);
 }
 
 @media (min-width: 40rem) {
     .nav__link--active {
         border-left: none;
-        border-bottom: 5px solid var(--couleur-utilitaire);
+        border-bottom: var(--border);
     }
 }
 

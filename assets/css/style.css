@@ -51,8 +51,8 @@
 .sauter {
     outline: none;
     background-color: #222222;
-    border-bottom: 3px solid var(--couleur-utilitaire);
-    color: #ffffff;
+    border-bottom: var(--border);
+    color: var(--color-text);
     display: block;
     padding: 0.25em 0;
     text-align: center;
@@ -74,11 +74,11 @@ a {
 }
 
 .btn {
-    border: 3px solid var(--couleur-border);
+    border: var(--border);
     border-radius: 5px;
     display: inline-block;
     font-weight: bold;
-    color: #ffffff;
+    color: var(--color-text);
     padding: 0.5em 1em;
     text-decoration: none;
     transition: background-color 0.5s;
@@ -128,7 +128,7 @@ figure img {
 }
 
 figcaption {
-    border-bottom: 5px solid var(--couleur-utilitaire);
+    border-bottom: var(--border);
     font-size: 1.25rem;
     margin-top: 10px;
     padding-bottom: 10px;
@@ -139,7 +139,7 @@ figcaption {
 .entete {
     background: url(../images/entete-mobile.jpg) center top no-repeat;
     background-size: cover;
-    color: #ffffff;
+    color: var(--color-text);
     padding: 10px 0;
     text-align: center;
 }
@@ -174,7 +174,7 @@ figcaption {
 
     .nav__link:focus {
         outline: none;
-        border-bottom: 5px solid var(--couleur-utilitaire);
+        border-bottom: var(--border);
         color: var(--couleur-utilitaire);
     }
 
@@ -259,7 +259,7 @@ figcaption {
 }
 
 .experiences article {
-    background-color: #ffffff;
+    background-color: var(--color-text);
     border-radius: 5px;
 }
 
@@ -300,11 +300,11 @@ figcaption {
 }
 
 .service {
-    border-top: 5px solid var(--couleur-utilitaire);
+    border-top: var(--border);
 }
 
 .service:last-of-type {
-    border-bottom: 5px solid var(--couleur-utilitaire);
+    border-bottom: var(--border);
 }
 
 .service h3 {
@@ -364,7 +364,7 @@ footer .h2 {
 }
 
 .informations a {
-    border-bottom: 2px solid var(--couleur-utilitaire);
+    border-bottom: var(--border);
     color: #000000;
     font-weight: bold;
     text-decoration: none;

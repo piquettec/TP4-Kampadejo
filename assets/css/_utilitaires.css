@@ -3,11 +3,10 @@
 
 /****** Variables (peuvent être utilisées dans tous les fichiers) *******/
 :root {
-    /** Variables À DÉFINIR 
-        JAUNE: #dba70d
-        GRIS TRANSPARENT: rgba(255, 255, 255, 0.25)
-        Valeur de border-radius des éléments :
-    */
+    --color-text: #fff;
+    --font-family: Raleway, sans-serif;
+    --border: 3px solid #dba70d;
+
     --couleur-utilitaire: #dba70d;
     --couleur-border: rgba(255, 255, 255, 0.25);
     --couleur-tertiaire: #00501A;
