@@ -16,26 +16,24 @@
     <a href="#contenu" class="sauter screen-reader-only focusable">
         Allez au contenu
     </a>
-    <header class="entete">
+    <header class="entete" role="banner">
         <div class="conteneur">
             <!-- Menu principal -->
             <nav class="nav nav--closed">
-                <a href="index.html">
-                    <img src="assets/images/logo.svg" alt="">
-                </a>
+                <a href="index.html" class="logo"><img src="assets/images/logo.svg" alt="Accueil Kampadejo"></a>
 
                 <ul class="nav__list">
                     <li class="nav__list-item">
-                        <a href="index.html" class="nav__link">Entreprise</a>
+                        <a href="#entreprise" class="nav__link">Entreprise</a>
                     </li>
                     <li class="nav__list-item">
-                        <a href="index.html" class="nav__link">Expériences</a>
+                        <a href="#experiences" class="nav__link">Expériences</a>
                     </li>
                     <li class="nav__list-item">
-                        <a href="index.html" class="nav__link">Services</a>
+                        <a href="#services" class="nav__link">Services</a>
                     </li>
                     <li class="nav__list-item">
-                        <a href="index.html" class="nav__link">contact</a>
+                        <a href="#contact" class="nav__link">contact</a>
                     </li>
                 </ul>
 
@@ -50,7 +48,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main role="main">
         <section class="entreprise conteneur rangee" id="entreprise">
             <div class="cols_7_de_12">
                 <h2 id="contenu">Notre entreprise</h2>
@@ -160,7 +158,7 @@
             </div>
         </section>
     </main>
-    <footer id="contact">
+    <footer id="contact" role="contentinfo">
         <div class="conteneur rangee">
             <div class="cols_4_de_12">
                 <h2>Nous joindre</h2>

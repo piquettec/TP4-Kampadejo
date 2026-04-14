@@ -16,7 +16,7 @@
 
 /* Bouton du menu */
 .nav__control {
-    background-color: rgba(145, 0, 145, 0.2);
+    background-color: var(--couleur-border);
     border: none;
     padding: 10px;
     min-width: 40px;
@@ -31,7 +31,7 @@
 .nav__control:hover,
 .nav__control:active {
     color: #fff;
-    background-color: darkmagenta;
+    background-color: var(--couleur-border);
 }
 
 .nav__control:focus {
@@ -111,13 +111,13 @@
     pour l'item de menu actif
     **/
 .nav__link--active {
-    border-left: 5px solid rgba(101, 68, 180, 1);
+    border-left: 5px solid var(--couleur-utilitaire);
 }
 
 @media (min-width: 40rem) {
     .nav__link--active {
         border-left: none;
-        border-bottom: 5px solid rgba(101, 68, 180, 1);
+        border-bottom: 5px solid var(--couleur-utilitaire);
     }
 }
 
