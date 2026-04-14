@@ -166,12 +166,31 @@ figcaption {
     .logo {
         width: 180px;
     }
+
+    .nav__link:hover {
+        color: var(--couleur-utilitaire);
+        background-color: transparent;
+    }
+
+    .nav__link:focus {
+        outline: none;
+        border-bottom: 5px solid var(--couleur-utilitaire);
+        color: var(--couleur-utilitaire);
+    }
+
+    .nav {
+        text-align: right;
+    }
+
 }
 
 .nav {
     text-align: right;
-}
+} 
 
+.nav__link {
+    text-align: left;
+}
 
 /* Accroche */
 

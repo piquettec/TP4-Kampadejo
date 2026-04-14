@@ -30,8 +30,8 @@
 
 .nav__control:hover,
 .nav__control:active {
-    color: #fff;
-    background-color: var(--couleur-border);
+    color: var(--couleur-utilitaire);
+    background-color: none;
 }
 
 .nav__control:focus {
@@ -46,9 +46,8 @@
      * Les règles outline-offset et outline permettent
      * de modifier l'apparence du outline par défaut des navigateurs.
      */
-    outline-offset: -5px;
-    outline: darkmagenta auto 5px;
-}
+    border-left: 5px solid var(--couleur-utilitaire);
+}   
 
 
 .nav__control:before {
@@ -56,11 +55,13 @@
     content: "";
     width: 1em;
     height: 1em;
-    /* compléter pour afficher l’icône X */
+    background: url(../images/ico-fermer.svg);
+    background-size: contain;
 }
 
 .nav--closed .nav__control:before {
-    /* compléter pour afficher l’icône Hamburger */
+    background: url(../images/ico-menu.svg);
+    background-size: contain;
 }
 
 /* Liste du menu */
@@ -91,13 +92,13 @@
 }
 
 .nav__link:hover {
-    color: #fff;
-    background-color: var(--couleur-utilitaire);
+    color: var(--couleur-utilitaire);
+    background-color: transparent;
 }
 
 .nav__link:active {
-    color: #fff;
-    background-color: var(--couleur-utilitaire);
+    color: var(--couleur-utilitaire);
+    background-color: transparent;
 }
 
 
